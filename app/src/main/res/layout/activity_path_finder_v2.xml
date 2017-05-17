@@ -54,9 +54,11 @@
                     android:id="@+id/sourceText"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:completionThreshold="1"
                     android:gravity="center|left"
                     android:hint="Source"
-                    android:completionThreshold="1" />
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
 
                 <Button
                     android:id="@+id/btnClearSrc"
@@ -81,9 +83,10 @@
                     android:id="@+id/destText"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:completionThreshold="1"
                     android:gravity="center|left"
                     android:hint="Destination"
-                    android:completionThreshold="1"
+                    android:imeOptions="actionNext"
                     android:singleLine="true" />
 
 

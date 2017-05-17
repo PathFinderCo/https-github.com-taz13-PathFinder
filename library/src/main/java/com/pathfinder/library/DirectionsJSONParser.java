@@ -1,4 +1,4 @@
-package com.pioneers.pathfinder.libs;
+package com.pathfinder.library;
 
 import com.google.android.gms.maps.model.LatLng;
 

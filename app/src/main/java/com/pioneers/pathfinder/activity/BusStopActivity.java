@@ -95,10 +95,16 @@ public class BusStopActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d("BusFinder", "Bus services found");
 
-                Intent showOnMap = new Intent(BusStopActivity.this, ExpandableActivity.class);
-                showOnMap.putExtra("reqType", getString(R.string.busService));
-                showOnMap.putExtra("stopName", mSourceTextView.getText().toString());
-                startActivity(showOnMap);
+                //Check if source value is given
+                if (!mSourceTextView.getText().toString().equals("")) {
+                    Intent showOnMap = new Intent(BusStopActivity.this, ExpandableActivity.class);
+                    showOnMap.putExtra("reqType", getString(R.string.busService));
+                    showOnMap.putExtra("stopName", mSourceTextView.getText().toString());
+                    startActivity(showOnMap);
+                } else {
+                    mSourceTextView.setError("Start location required");
+                }
+
             }
 
 

@@ -107,24 +107,30 @@ public class PathFinderActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d("PathFinder", "Shortest path found");
-
-                Intent showOnMap = new Intent(PathFinderActivity.this, ExpandableActivity.class);
-                showOnMap.putExtra("reqType", getString(R.string.shortestPath));
-                showOnMap.putExtra("Source", mSourceTextView.getText().toString());
-                showOnMap.putExtra("Destination", mDestTextView.getText().toString());
-                startActivity(showOnMap);
+                //Check if source value is given
+                if (!mSourceTextView.getText().toString().equals("") && !mDestTextView.getText().toString().equals("")) {
+                    Intent showOnMap = new Intent(PathFinderActivity.this, ExpandableActivity.class);
+                    showOnMap.putExtra("reqType", getString(R.string.shortestPath));
+                    showOnMap.putExtra("Source", mSourceTextView.getText().toString());
+                    showOnMap.putExtra("Destination", mDestTextView.getText().toString());
+                    startActivity(showOnMap);
+                }
+                if (mSourceTextView.getText().toString().equals("")) {
+                    mSourceTextView.setError("Start location required");
+                }
+                if (mDestTextView.getText().toString().equals("")) {
+                    mDestTextView.setError("Destination required");
+                }
             }
 
 
         });
 
+
         //Auto complete location code
-
-
 
         // Retrieve the AutoCompleteTextView that will display Source place suggestions.
         mSourceTextView = (AutoCompleteTextView) findViewById(R.id.sourceText);
-
 
 
         // Retrieve the AutoCompleteTextView that will display Destination place suggestions.

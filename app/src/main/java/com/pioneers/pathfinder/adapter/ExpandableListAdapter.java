@@ -124,10 +124,13 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         txtListChild.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String path = pathMap.get(_listDataHeader.get(groupPosition));
+                String path = "";
                 if (type.equals("busservice")) {
+                    path = pathMap.get(_listDataHeader.get(groupPosition));
                     source = path.split(":")[0];
                     destination = path.split(":")[path.split(":").length - 1];
+                } else if (type.equals("shortestpath")) {
+                    path = pathMap.get(keyList.get(groupPosition));
                 }
                 Intent intent = new Intent(_context, MapsActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
