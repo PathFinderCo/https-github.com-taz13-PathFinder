@@ -5,6 +5,7 @@ import android.util.Log;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -157,7 +158,15 @@ public class MapLibraryFunctions {
             if (!busStop.equals(origin) || !busStop.equals(dest)) {
                 busStopLatLng.add(busStop);
             }
-            mMap.addMarker(new MarkerOptions().position(busStop).title(stop));
+            MarkerOptions tempMarker;
+            if (path[0].equals(stop)) {
+                tempMarker = new MarkerOptions().position(busStop).title(stop).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_person_pin_circle_black_48dp));
+            } else if (path[path.length - 1].equals(stop)) {
+                tempMarker = new MarkerOptions().position(busStop).title(stop).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_pin_drop_black_48dp));
+            } else {
+                tempMarker = new MarkerOptions().position(busStop).title(stop).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_place_black_48dp));
+            }
+            mMap.addMarker(tempMarker);
         }
     }
 

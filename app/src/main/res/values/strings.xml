@@ -15,6 +15,8 @@
         <item>Cheapest</item>
         <item>Shortest</item>
     </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!-- admob unit id-->
     <string name="banner_ad_unit_id">ca-app-pub-8407922145984569/9199375131</string>

@@ -18,7 +18,7 @@ import java.util.List;
  */
 
 public class AsyncTaskClass {
-    private static final int MAP_WIDTH = 5;
+    private static final int MAP_WIDTH = 10;
 
     // Fetches data from url passed
     public static class DownloadTask extends AsyncTask<String, Void, String> {

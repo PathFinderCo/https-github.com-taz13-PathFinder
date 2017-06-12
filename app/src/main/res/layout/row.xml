@@ -11,10 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
-        card_view:cardCornerRadius="4dp"
+        android:layout_weight="21.38"
 
-        card_view:contentPadding="10dp"
-        android:layout_weight="21.38">
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="10dp">
 
         <!--#D3D3D3-->
 

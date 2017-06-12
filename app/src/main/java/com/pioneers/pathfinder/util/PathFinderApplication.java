@@ -8,6 +8,7 @@ import android.support.multidex.MultiDex;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
+import com.pioneers.pathfinder.activity.ConnectivityReceiver;
 
 /**
  * Created by root on 1/11/16.
@@ -56,4 +57,7 @@ public class PathFinderApplication extends Application {
         return mRequestQueue;
     }
 
+    public void setConnectivityRecceiver(ConnectivityReceiver.ConnectivityReceiverListener listener) {
+        ConnectivityReceiver.connectivityReceiverListener = listener;
+    }
 }

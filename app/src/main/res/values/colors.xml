@@ -1,6 +1,21 @@
 <resources>
 
-    <color name="ColorPrimary">#FF5722</color>
-    <color name="ColorPrimaryDark">#E64A19</color>
+    <color name="ColorPrimary">#009688</color>
+    <color name="ColorPrimaryDark">#00665c</color>
     <color name="BusStopListColor">#1da8f4</color>
+    <color name="nav">#40009688</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00665c</color>
+    <color name="white">#ffffff</color>
+    <color name="highlight">#F7F7F7</color>
+    <color name="bottomnavibckgrnd">#f7efef</color>
+    <color name="bottomnaviactive">#3aa6bd</color>
+    <color name="botttomnavidisable">#8C8a8c</color>
+    <color name="line_divider">#E7E7E7</color>
+    <color name="allbackground">#FFFFFF</color>
+    <color name="buttoncolor">#3FA7BA</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="fixedamountbackground">#8c8a8a</color>
+    <color name="disableBackground">#f4f4f4</color>
+    <color name="appColorBasic">#455a64</color>
 </resources>
