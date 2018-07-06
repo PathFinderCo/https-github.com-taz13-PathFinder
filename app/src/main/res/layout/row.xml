@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
         android:layout_weight="21.38"
-
-        card_view:cardCornerRadius="4dp"
+        android:background="@color/colorPrimary"
+        card_view:cardCornerRadius="40dp"
         card_view:contentPadding="10dp">
 
         <!--#D3D3D3-->
@@ -83,12 +83,6 @@
                         android:textColor="#000" />
 
                 </GridLayout>
-
-
-
-
-
-
             </LinearLayout>
 
         <!--</RelativeLayout>-->

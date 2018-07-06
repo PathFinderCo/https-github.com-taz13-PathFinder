@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.BusStopFragment">
+    <!--android:background="#455a64">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:gravity="center"-->
+    <!--android:background="@drawable/layout_bg"-->
+    <!--android:layout_margin="20dp"-->
+    <!--&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/placeholder" />-->
+
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="85dp"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/img_operator"-->
+    <!--android:layout_width="20dp"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_marginLeft="13dp"-->
+    <!--android:layout_marginRight="18dp"-->
+    <!--android:gravity="center"-->
+    <!--android:src="@drawable/ic_add_location_black_24dp" />-->
+
+    <!--<android.support.design.widget.TextInputLayout-->
+    <!--android:id="@+id/edt_text_input_layout_source"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--app:hintTextAppearance="@style/MyHintText">-->
+
+    <!--<AutoCompleteTextView-->
+    <!--android:id="@+id/edt_txt_source"-->
+    <!--android:completionThreshold="1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:drawableRight="@drawable/edit1"-->
+    <!--android:hint="Source"-->
+    <!--android:imeOptions="actionNext"-->
+    <!--android:inputType="text"-->
+    <!--android:paddingEnd="20dp"-->
+    <!--android:paddingRight="20dp"-->
+    <!--android:textColor="#455a64"-->
+    <!--android:textCursorDrawable="@null"-->
+    <!--android:textSize="15sp"-->
+    <!--android:theme="@style/MyEditText"-->
+    <!--app:errorTextAppearance="@style/AppTheme.TextAppearance.Error" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="85dp"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="20dp"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_marginLeft="13dp"-->
+    <!--android:layout_marginRight="18dp"-->
+    <!--android:gravity="center"-->
+    <!--android:src="@drawable/ic_add_location_black_24dp" />-->
+
+    <!--<android.support.design.widget.TextInputLayout-->
+    <!--android:id="@+id/edt_text_input_layout_dest"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--app:hintTextAppearance="@style/MyHintText">-->
+
+    <!--<AutoCompleteTextView-->
+    <!--android:id="@+id/edt_txt_destination"-->
+    <!--android:completionThreshold="1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:drawableRight="@drawable/edit1"-->
+    <!--android:hint="Destination"-->
+    <!--android:imeOptions="actionDone"-->
+    <!--android:inputType="text"-->
+    <!--android:paddingEnd="20dp"-->
+    <!--android:paddingRight="20dp"-->
+    <!--android:textColor="#455a64"-->
+    <!--android:textCursorDrawable="@null"-->
+    <!--android:textSize="15sp"-->
+    <!--android:theme="@style/MyEditText"-->
+    <!--app:errorTextAppearance="@style/AppTheme.TextAppearance.Error" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:gravity="center_horizontal">-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="Choose Path Type"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginRight="20dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textSize="15sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="#455a64"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+    <!--android:id="@+id/spinner"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:ms_arrow_tint="#ffffff"-->
+    <!--android:textSize="15sp"-->
+    <!--app:ms_background_color="#455a64"-->
+    <!--app:ms_text_color="#ffffff"-->
+
+    <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/button_findpath"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:background="#455a64"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Find path"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:textSize="15sp" />-->
+
+    <!--</LinearLayout>-->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/under_construction" />
+</LinearLayout>

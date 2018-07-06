@@ -1,47 +1,27 @@
 {
   "project_info": {
-    "project_number": "973948562269",
-    "firebase_url": "https://triple-course-111307.firebaseio.com",
-    "project_id": "triple-course-111307",
-    "storage_bucket": "triple-course-111307.appspot.com"
+    "project_number": "873857533144",
+    "firebase_url": "https://pathfinder-851c4.firebaseio.com",
+    "project_id": "pathfinder-851c4",
+    "storage_bucket": "pathfinder-851c4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:973948562269:android:93419aede04d85be",
+        "mobilesdk_app_id": "1:873857533144:android:93419aede04d85be",
         "android_client_info": {
           "package_name": "com.pioneers.pathfinder"
         }
       },
       "oauth_client": [
         {
-          "client_id": "973948562269-8aoaejgf15spram0n3os40rl94n5vs87.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.pioneers.pathfinder",
-            "certificate_hash": "8a836d3858b6be4d021eae764b798a344bf1bd01"
-          }
-        },
-        {
-          "client_id": "973948562269-nd4a3bbs6es92rkoj1btnl2njc085c44.apps.googleusercontent.com",
+          "client_id": "873857533144-pd460llg11ts5vht1olsuhajl30cam85.apps.googleusercontent.com",
           "client_type": 3
-        },
-        {
-          "client_id": "973948562269-0opia2t13d3p1sqfh08lt25qaf4ecps7.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "973948562269-1o9iddi19gh4b09mpkja33r1jl0odic9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.pioneers.pathfinder",
-            "certificate_hash": "93caa64ba05e381d1b0eda2875a8c9d3763ee72b"
-          }
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDROXW9he36SJL1CC3PSKULTw_udJFBPF8"
+          "current_key": "AIzaSyBKdDwaO8DJsgf0D5I23n3kRdzFC3JqkxI"
         }
       ],
       "services": {
@@ -49,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "973948562269-nd4a3bbs6es92rkoj1btnl2njc085c44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
